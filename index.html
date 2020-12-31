@@ -6,10 +6,16 @@
 </head>
 <body>
 	<h1>Background Generator</h1>
-	<input type="color" class="color1" value="#00ff00">
-	<input type="color" class="color2" value="#ff0000">
+	<input type="color" class="color1" value="#24bfc2">
+	<input type="color" class="color2" value="#122c87">
 	<h2>Current CSS Background</h2>
-	<h3></h3>
+	<input type="text" value="linear-gradient(to right, rgb(36, 191, 194), rgb(18, 44, 135));" id="copyText" size="60">
+	<div class="tooltip">
+	<button onclick="myFunction()" onmouseout="outFunc()">
+	  <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+	  Copy text
+	  </button>
+	</div>
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
